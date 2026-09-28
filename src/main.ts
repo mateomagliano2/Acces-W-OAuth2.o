@@ -17,7 +17,6 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document); // Define que estará disponible en /api
   // --------------------------------
 
-
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
